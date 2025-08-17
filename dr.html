@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Edwin — Operations Management Portfolio</title>
+
+  <link rel="stylesheet" href="dr.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
+  <!-- EmailJS (public key init) -->
+   
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    (function(){ emailjs.init("TFdC1D87xofjzfxB7"); })();
+  </script>
+</head>
+<body>
+  <!-- GLOBAL BACKGROUND ANIMATION -->
+  <canvas id="nutBoltCanvas"></canvas>
+
+  <!-- NAV -->
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#home">Ed<span>win</span></a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle menu"><span class="hamburger"></span></button>
+      <ul id="navlist" class="nav-list" role="navigation">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a class="cta" href="http://www.linkedin.com/in/edwin-09-" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-inner container">
+        <div class="hero-card glass">
+          <div class="hero-left">
+            <h1 class="hero-title">Hi, I’m <span class="accent">Edwin</span></h1>
+            <p class="hero-sub">  Driven by a passion for Operations and Finance, I specialize in designing smart, 
+        data-driven business solutions that enhance efficiency, reduce costs, 
+        and create sustainable value..</p>
+            <div class="hero-roles">
+              <span class="role">Operations</span><span class="sep">•</span>
+              <span class="role">Supply Chain</span><span class="sep">•</span>
+              <span class="role">Analytics</span>
+            </div>
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#projects">View Work</a>
+              <a class="btn btn-ghost" href="image/Eddie.CV SUP.docx" download>Download CV</a>
+            </div>
+          </div>
+
+          <div class="hero-right">
+            <!-- Square, HD-ready profile image -->
+            <img class="profile"
+                 src="image/profile-1.jpeg.jpg"
+                 srcset="image/profile-1.jpeg.jpg 2x"
+                 alt="Edwin portrait" width="300" height="300" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section container reveal">
+      <div class="split">
+        <div class="content">
+          <h2>About Me</h2>
+          <p>I am a results-oriented Operations Management professional with expertise in process optimization, 
+                    supply chain coordination, and performance improvement. Leveraging Lean methodologies, Six Sigma tools, 
+                    and logistics expertise, I help businesses enhance efficiency, reduce waste, and streamline workflows.
+                    With strong skills in financial planning, budgeting, and data analysis, I align operational strategies 
+                    with financial objectives. Proficient in Excel, Power BI, and ERP systems, I deliver data-driven solutions 
+                    for sustainable growth.</p>
+        </div>
+
+        <div class="visual">
+  <img class="asset-img"
+       src="assets/about.jpg"
+       srcset="assets/about@2x.jpg 2x"
+       alt="Operations illustration" />
+</div>
+
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Operations Executive</h3>
+            <span>D. V. Poles Pvt. Ltd. | 2025</span>
+            <p>Optimized workflow efficiency using Lean tools and ERP systems to improve on-time delivery and reduce waste.</p>
+            <ul>
+                    <li>Coordinated daily production planning and shop floor activities to ensure operational continuity.</li>
+                    <li>Managed inventory levels and raw material flow using ERP systems.</li>
+                    <li>Created performance dashboards in Excel for decision-making.</li>
+                    <li>Applied Lean manufacturing principles to improve efficiency.</li>
+                    <li>Worked across procurement, quality control, dispatch, and logistics.</li>
+                </ul>  
+        </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Web Developer Intern</h3>
+            <span>Internest Agency | 2023</span>
+            <p>Built responsive websites, enhanced UI/UX, and improved load performance for client projects.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid reveal">
+        <div class="skill">
+          <div class="skill-head"><h3>Lean Six Sigma (White, Yellow, Green)</h3><span>90%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-percent="90"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head"><h3>Operations Analyst</h3><span>85%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-percent="85"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head"><h3>Data Analysis & Visualization</h3><span>80%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-percent="80"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head"><h3>Supply Chain Management</h3><span>75%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-percent="75"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head"><h3>Quality Management Tools</h3><span>70%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-percent="70"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <!-- PROJECTS -->
+<section id="projects" class="section container">
+  <h2 class="section-title">Projects</h2>
+  <div class="projects-grid reveal">
+
+    <article class="project-card">
+      <img class="asset-img" src="image/maersk.1.jpeg" srcset="image/maersk.1.jpeg 2x" alt="Lean Six Sigma Project">
+      <div class="card-body">
+        <h3>Reducing Errors in Container Booking Documentation</h3>
+        <p>Applied DMAIC methodology at Maersk GSC to reduce errors using SIPOC, Fishbone, Pareto Analysis, and process simulations, achieving significant workflow improvements.</p>
+        <div class="project-links">
+          <!-- Online View Link -->
+          <a href="https://docs.google.com/document/d/10yDkQpXiudO4u85p1K76tgl81aHLwwV5/edit?usp=sharing&ouid=106667420201785360174&rtpof=true&sd=true"
+             class="btn btn-primary" target="_blank" rel="noopener">
+             🔗 View Online
+          </a>
+          <!-- Optional PDF download -->
+          <a href="image/Abstract edd.docx" class="btn btn-ghost" download>📄 Download PDF</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <img class="asset-img" src="image/maersk.1.jpeg" srcset="image/maersk.1.jpeg 2x" alt="SCM Dashboard">
+      <div class="card-body">
+        <h3>SCM Dashboard</h3>
+        <p>Power BI & JS dashboard for supply chain KPIs and inventory forecasts.</p>
+        <div class="project-links">
+          <!-- Example: another link if you have -->
+          <a href="https://docs.google.com/document/d/10yDkQpXiudO4u85p1K76tgl81aHLwwV5/edit?usp=sharing&ouid=106667420201785360174&rtpof=true&sd=true" class="btn btn-primary" target="_blank" rel="noopener">
+             🔗 View Online
+          </a>
+          <a href="image/Abstract edd.docx" class="btn btn-ghost" download>📄 Download PDF</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container">
+      <h2 class="section-title">Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" id="name" name="user_name" placeholder="Your Name" required />
+        <input type="email" id="email" name="user_email" placeholder="Your Email" required />
+        <input type="text" id="subject" name="subject" placeholder="Subject" required />
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="btn btn-primary">Send</button>
+        <div id="form-status" role="status" aria-live="polite"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Edwin | Built with ⚙️ & 💡</p>
+  </footer>
+
+  <script src="dr.js"></script>
+</body>
+</html>

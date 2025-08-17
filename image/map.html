@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Edwin — Operations & Finance (King / Pro+ Portfolio)</title>
+  <meta name="description" content="Edwin — Operations & Finance professional. Pro+ portfolio with advanced animations, case studies and contact.">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Edwin — Operations & Finance (Portfolio)">
+  <meta property="og:description" content="Process optimization, forecasting, and operations management — case studies & contact.">
+  <meta property="og:image" content="image/profile-1.jpeg.jpg">
+  <meta property="og:type" content="profile">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Structured data (Person) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Edwin",
+    "jobTitle": "Operations & Finance Professional",
+    "url": "http://www.linkedin.com/in/edwin-09-",
+    "sameAs": [
+      "http://www.linkedin.com/in/edwin-09-"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chennai",
+      "addressCountry": "IN"
+    }
+  }
+  </script>
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Ubuntu:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="map.css">
+
+  <!-- Preload hero image -->
+  <link rel="preload" as="image" href="image/profile-1.jpeg.jpg">
+
+  <!-- Libs -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" defer></script>
+  <script src="https://cdn.emailjs.com/dist/email.min.js" defer></script>
+
+  <!-- App -->
+  <script src="map.js" defer></script>
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader" aria-hidden="true">
+    <div class="preloader-inner">
+      <svg viewBox="0 0 48 48" width="48" height="48" aria-hidden="true">
+        <circle cx="24" cy="24" r="10" stroke="rgba(42,157,143,0.16)" stroke-width="6" fill="none"></circle>
+        <circle cx="24" cy="24" r="10" stroke="#2A9D8F" stroke-width="6" stroke-linecap="round" fill="none" class="preload-anim"></circle>
+      </svg>
+      <span>Loading portfolio…</span>
+    </div>
+  </div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Minimal custom cursor -->
+  <div id="cursor" aria-hidden="true"><div class="cursor-dot"></div></div>
+
+  <!-- Header / Nav -->
+  <header class="nav-wrap" role="banner">
+    <nav class="navbar max-width" role="navigation" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Edwin home">E<span>dwin</span></a>
+
+      <div class="nav-right">
+        <a class="linkedin-cta" href="http://www.linkedin.com/in/edwin-09-" target="_blank" rel="noopener" aria-label="Edwin LinkedIn">
+          <i class="fab fa-linkedin" aria-hidden="true"></i> Connect
+        </a>
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle theme" title="Toggle theme"><i class="fas fa-sun"></i></button>
+
+        <button id="menuBtn" class="icon-btn mobile-only" aria-controls="main-menu" aria-expanded="false" aria-label="Open menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <ul id="main-menu" class="menu" role="menubar" data-visible="false">
+        <li role="none"><a role="menuitem" href="#home">Home</a></li>
+        <li role="none"><a role="menuitem" href="#about">About</a></li>
+        <li role="none"><a role="menuitem" href="#Internship">Experience</a></li>
+        <li role="none"><a role="menuitem" href="#skills">Skills</a></li>
+        <li role="none"><a role="menuitem" href="#projects">Projects</a></li>
+        <li role="none"><a role="menuitem" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- HERO -->
+    <section id="home" class="hero-section">
+      <div class="max-width hero-inner">
+        <div class="hero-left">
+          <h1 class="hero-title">Hi, I’m <span class="accent">Edwin</span></h1>
+          <p class="hero-sub">Operations & Finance — process-first improvements that scale.</p>
+          <p class="hero-typed">I build: <span id="typing" aria-hidden="true"></span></p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">View Case Studies</a>
+            <a class="btn ghost" href="http://www.linkedin.com/in/edwin-09-" target="_blank" rel="noopener">Connect on LinkedIn</a>
+          </div>
+
+          <div class="trust-row">
+            <div class="trust-item"><strong>6+</strong><span>Months Internship</span></div>
+            <div class="trust-item"><strong>5</strong><span>Projects</span></div>
+            <div class="trust-item"><strong>95%</strong><span>Task Completion</span></div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="parallax-card" data-depth="0.06" tabindex="0" aria-label="Portrait card">
+            <picture>
+              <source srcset="image/profile-1.jpeg.jpg" type="image/webp">
+              <img src="image/profile-1.jpeg.jpg" alt="Edwin portrait" loading="lazy" width="520" height="520">
+            </picture>
+            <div class="card-overlay">
+              <svg class="card-wave" viewBox="0 0 500 150" preserveAspectRatio="none" aria-hidden="true">
+                <path d="M0,100 C150,200 350,0 500,100 L500,150 L0,150 Z" fill="rgba(255,255,255,0.06)"></path>
+              </svg>
+              <div class="card-stats">
+                <div><small>Internship</small><strong>6 months</strong></div>
+                <div><small>Projects</small><strong>5</strong></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Particles -->
+      <canvas id="particle-canvas" class="particle-canvas" aria-hidden="true"></canvas>
+
+      <!-- Animated hero wave (CSS-triggered) -->
+      <svg class="hero-wave" viewBox="0 0 1200 200" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <linearGradient id="g1" x1="0" x2="1">
+            <stop offset="0" stop-color="#E9C46A" stop-opacity="0.12"></stop>
+            <stop offset="1" stop-color="#F4A261" stop-opacity="0.06"></stop>
+          </linearGradient>
+        </defs>
+        <path id="wavePath" d="M0,80 C200,20 400,140 600,80 C800,20 1000,140 1200,80 L1200,200 L0,200 Z" fill="url(#g1)"></path>
+      </svg>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about-section">
+      <div class="max-width about-grid">
+        <div class="about-left">
+          <h2>About Me</h2>
+          <p class="lead">I combine operational rigor and financial thinking to reduce waste, speed up throughput, and increase ROI. My toolkit includes Lean, Six Sigma, Power BI and ERP integrations.</p>
+
+          <ul class="about-list">
+            <li><strong>Role:</strong> Operations Analyst / Process Designer</li>
+            <li><strong>Focus:</strong> Process improvement, Forecasting, KPI design</li>
+            <li><strong>Location:</strong> Chennai, India</li>
+            <li><strong>LinkedIn:</strong> <a href="http://www.linkedin.com/in/edwin-09-" target="_blank" rel="noopener">http://www.linkedin.com/in/edwin-09-</a></li>
+          </ul>
+
+          <div class="about-actions">
+            <a href="image/Eddie.CV SUP.docx" class="btn primary">Download Resume</a>
+            <button class="btn outline" id="btn-case-sample">Open Case Study</button>
+          </div>
+        </div>
+
+        <aside class="about-right" aria-hidden="true">
+          <div class="skill-cards">
+            <div class="skill-glass">
+              <h4>Lean Six Sigma</h4>
+              <div class="meter" data-value="0.92"><div class="meter-fill"></div></div>
+            </div>
+            <div class="skill-glass">
+              <h4>Process Mapping</h4>
+              <div class="meter" data-value="0.82"><div class="meter-fill"></div></div>
+            </div>
+            <div class="skill-glass">
+              <h4>Forecasting</h4>
+              <div class="meter" data-value="0.74"><div class="meter-fill"></div></div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="Internship" class="exp-section">
+      <div class="max-width">
+        <h2>Experience & Internship</h2>
+        <div class="timeline" role="list">
+          <div class="timeline-item" role="listitem">
+            <div class="dot" aria-hidden="true"></div>
+            <div class="t-content">
+              <h3>D. V. Poles Pvt. Ltd. — Operations Executive <span class="muted">2025</span></h3>
+              <p>Coordinated production planning, ERP inventory flows, dashboards, and Lean initiatives to improve throughput.</p>
+            </div>
+          </div>
+          <div class="timeline-item" role="listitem">
+            <div class="dot" aria-hidden="true"></div>
+            <div class="t-content">
+              <h3>Internest Agency — Web Developer Intern <span class="muted">2023</span></h3>
+              <p>Built responsive components that improved UX and loading performance across projects.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills-section">
+      <div class="max-width">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-pill">
+            <svg viewBox="0 0 36 36" class="circular"><path class="bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831"/></svg>
+            <div class="skill-info"><strong>Lean</strong><span>92%</span></div>
+          </div>
+          <div class="skill-pill">
+            <svg viewBox="0 0 36 36" class="circular"><path class="bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831"/></svg>
+            <div class="skill-info"><strong>Forecasting</strong><span>74%</span></div>
+          </div>
+          <div class="skill-pill">
+            <svg viewBox="0 0 36 36" class="circular"><path class="bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831"/></svg>
+            <div class="skill-info"><strong>ERP</strong><span>80%</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects-section">
+      <div class="max-width">
+        <div class="projects-head">
+          <h2>Projects & Case Studies</h2>
+          <div class="filter-row" role="tablist" aria-label="Project filters">
+            <button class="filter-btn active" data-filter="*">All</button>
+            <button class="filter-btn" data-filter="process">Process</button>
+            <button class="filter-btn" data-filter="research">Research</button>
+            <button class="filter-btn" data-filter="analysis">Analysis</button>
+          </div>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+          <article class="proj-card" data-type="analysis" tabindex="0">
+            <figure class="proj-thumb">
+              <img src="image/maersk.jpg" alt="Maersk project" loading="lazy">
+              <figcaption>
+                <h3>Container Booking Errors (Maersk)</h3>
+                <p>DMAIC and Pareto to reduce documentation errors and accelerate turnaround.</p>
+              </figcaption>
+            </figure>
+            <div class="proj-actions">
+              <button class="btn small" data-case="case-maersk">Open Case</button>
+              <a class="btn ghost small" href="image/Abstract edd.docx" download>Download</a>
+            </div>
+          </article>
+
+          <article class="proj-card" data-type="research" tabindex="0">
+            <figure class="proj-thumb">
+              <img src="image/bus image.webp" alt="TN Bus travel research" loading="lazy">
+              <figcaption>
+                <h3>TN Free Bus Travel - Women's Study</h3>
+                <p>Service quality & safety research improving women's mobility.</p>
+              </figcaption>
+            </figure>
+            <div class="proj-actions">
+              <button class="btn small" data-case="case-bus">Open Case</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section">
+      <div class="max-width contact-grid">
+        <div class="contact-left">
+          <h2>Contact</h2>
+          <p>Want process improvements that deliver measurable ROI? Let’s connect.</p>
+
+          <div class="contact-cards">
+            <div class="card"><i class="fas fa-envelope"></i><a href="mailto:edwin0930e@gmail.com">edwin0930e@gmail.com</a></div>
+            <div class="card"><i class="fas fa-phone"></i><a href="tel:+919876543210">+91 98765 43210</a></div>
+            <div class="card"><i class="fas fa-map-marker-alt"></i><span>Chennai, India</span></div>
+            <div class="card"><i class="fab fa-linkedin"></i><a href="http://www.linkedin.com/in/edwin-09-" target="_blank" rel="noopener">/in/edwin-09-</a></div>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form" aria-label="Contact form">
+          <label class="sr-only" for="name">Your name</label>
+          <input id="name" name="user_name" type="text" placeholder="Your name" required>
+
+          <label class="sr-only" for="email">Email</label>
+          <input id="email" name="user_email" type="email" placeholder="Your email" required>
+
+          <label class="sr-only" for="subject">Subject</label>
+          <input id="subject" name="subject" type="text" placeholder="Subject" required>
+
+          <label class="sr-only" for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Message" required></textarea>
+
+          <div class="form-row">
+            <button class="btn primary" type="submit">Send</button>
+            <div id="responseMessage" role="status" aria-live="polite"></div>
+          </div>
+          <p class="muted small-text">Or connect directly on <a href="http://www.linkedin.com/in/edwin-09-" target="_blank" rel="noopener">LinkedIn</a>.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="max-width footer-inner">
+      <small>© 2025 Edwin — Built with care. Theme: Sunny Beach Day.</small>
+      <div class="social">
+        <a href="http://www.linkedin.com/in/edwin-09-" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Case modal -->
+  <div id="caseModal" class="case-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="case-inner" role="document">
+      <button class="case-close" aria-label="Close case">&times;</button>
+      <div id="caseContent" class="case-content"></div>
+    </div>
+  </div>
+</body>
+</html>
